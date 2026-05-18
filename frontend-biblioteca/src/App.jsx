@@ -5,7 +5,7 @@ function App() {
   const [mensaje, setMensaje] = useState("");
   const [cargando, setCargando] = useState(false);
 
-  const API_URL = "https://pratica7-pwa-production.up.railway.app";
+  const API_URL = "https://ms-prestamos.up.railway.app/";
 
   // Cargar el catálogo al iniciar
   const obtenerCatalogo = async () => {
