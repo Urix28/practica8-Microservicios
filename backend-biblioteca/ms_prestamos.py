@@ -18,7 +18,7 @@ class PeticionLibro(BaseModel):
     titulo: str
 
 # URL de nuestro otro microservicio
-URL_CATALOGO = "practica8-microservicios.railway.internal"
+URL_CATALOGO = "http://practica8-microservicios.railway.internal"
 
 @app.get("/api/catalogo")
 async def obtener_catalogo():
