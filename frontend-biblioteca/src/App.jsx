@@ -5,7 +5,7 @@ function App() {
   const [mensaje, setMensaje] = useState("");
   const [cargando, setCargando] = useState(false);
 
-  const API_URL = "https://ms-prestamos.up.railway.app/";
+  const API_URL = "https://ms-prestamos.up.railway.app";
 
   // Cargar el catálogo al iniciar
   const obtenerCatalogo = async () => {
@@ -94,7 +94,7 @@ function App() {
       </main>
 
       <footer className="text-center text-gray-500 p-8">
-        Práctica 7 PWA - Riveros González Armando Uriel
+        Práctica 8 Microservicios - Riveros González Armando Uriel
       </footer>
     </div>
   )
